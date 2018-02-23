@@ -1,3 +1,12 @@
-.banner {
-    margin-top: 10px;
+container {
+    display: inline-grid;
+    float: top;
 }
+.title {
+    width: 25%;
+}
+.images {
+    width: 75%;
+}
+
+
