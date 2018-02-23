@@ -1,11 +1,10 @@
-var totalsAll= [];
-var totalsFilled = [];
-var qtyFilled=0;
-var cstFilled=0;
-var qtyLJ=0;
-var cstLJ=0;
-var qtyFrosted=0;
-var cstFrosted=0;
+var qtyLemon=0;
+var cstLemon=0;
+var qtyPLemon=0;
+var cstPlemon=0;
+var qtyLime=0;
+var cstLime=0;
+var totalQty= [];
 
 $(document).ready(function(){
     init();
