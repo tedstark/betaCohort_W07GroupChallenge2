@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb47c8a-c53f-471d-b574-88a48c5726b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/media/image.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/media/images/lemonade.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/media/images/limeade.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/media/images/pinklemonaid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/media/images/title.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -61,21 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="summary.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/summary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -84,8 +70,8 @@
       <file leaf-file-name="confirm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -94,8 +80,8 @@
       <file leaf-file-name="history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -111,7 +97,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/history.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -124,13 +120,9 @@
       <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,15 +130,25 @@
       <file leaf-file-name="OrderDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/data/OrderDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="42">
               <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/media/image.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -538,88 +540,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lemonadeapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lemonadeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lemonadeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="betaCohort_W07GroupChallenge2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CitrusLime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betaCohortW07_CitrusLime" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,10 +624,278 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/media/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\User Files\th091024\IdeaProjects\betaCohortW07_CitrusLime\src\main\resources\static" />
       <recent name="E:\User Files\th091024\IdeaProjects\betaCohortW07_CitrusLime\src\main\java\com\tekojoinc\lemonadeapp" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/confirm.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/customer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/history.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/templates/summary.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileContent/annotation-processors.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileContent/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.0/fileHashes/resourceHashesCache.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1052294.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1096456.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1193080.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1238509.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1274677.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1487208.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1527800.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1537690.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1555184.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1570311.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1653951.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1700240.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1796344.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/1990718.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2163437.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2330820.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2331338.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2527375.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2600518.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2876337.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/2923651.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3134093.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3154928.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3186055.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3194212.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3334035.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3538295.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3891609.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/3931482.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4011222.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4017773.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4028893.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4204915.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4221605.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4424962.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4457362.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4683762.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4708682.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4854288.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4898929.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/4910053.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5004986.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5068491.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5187485.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5266167.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5309218.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5643946.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5739618.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5740118.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5782955.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5835456.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5840843.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5868116.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/5932072.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6071799.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6083500.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6084953.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6128500.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6134651.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6190478.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6259550.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6331178.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6343351.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6377127.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6441738.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6453696.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6683962.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6774843.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6873947.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6957300.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/6999785.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7143653.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7163633.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7250530.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7258813.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7297742.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7337213.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7408386.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7804452.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7865962.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7870558.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7874754.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/7962014.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8003896.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8210917.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8353877.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8568898.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8710695.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8711698.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8712160.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8756487.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8777399.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/8839501.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9036029.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9162284.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9274164.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9457783.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9462440.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9698371.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9752470.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9819369.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.tmp.drivedownload/9981497.driveupload</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/AppConfig.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/controller/AppController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/controller/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/data/OrderDB.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/data/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/com/tekojoinc/lemonadeapp/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/classes/java/main/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/media/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/bootstrap.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/client.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/history.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/jquery.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/static/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/confirm.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/customer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/history.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/resources/main/templates/summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/tmp/compileJava/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/tmp/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/media/audio/placeholder.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/media/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/media/images/placeholder.jpg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -773,11 +1034,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4583000" />
+    <option name="totallyTimeSpent" value="4676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <frame x="40" y="22" width="1400" height="878" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -794,6 +1054,37 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15731874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -801,16 +1092,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2506427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15731874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,11 +1109,239 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/data/OrderDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/media/image.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/data/OrderDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/data/OrderDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/media/image.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/customer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,11 +1397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,9 +1413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -922,30 +1429,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -960,17 +1466,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/data/OrderDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="42">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
@@ -980,19 +1484,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tekojoinc/lemonadeapp/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
