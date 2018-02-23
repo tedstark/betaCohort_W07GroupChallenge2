@@ -5,11 +5,21 @@
     <title>BetaAde Online Store: Order History Page</title>
     <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
     <link rel="stylesheet" th:href="@{/style.css}"/>
+
     <script type="text/javascript" th:src="@{/jquery.js}"></script>
     <script type="text/javascript" th:src="@{/client.js}"></script>
     <script type="text/javascript" th:src="@{/history.js}"></script>
-</head>
-<body>
 
+<body>
+<div id="divHistory" class="container">
+    <div class="row">
+        <button onclick="goOrder()" class="btn btn-info">Back</button>
+    </div>
+    <!--<div class="row" th:each="entry : ${orderrepo}">-->
+        <!--<div class="col-md-12">-->
+            <!--<p th:text="${order.item} + ' ' + ${order.qty} + ' ' + ${order.cost} + ' = ' + ${entry.solution} " class="solution"></p>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
 </body>
 </html>
