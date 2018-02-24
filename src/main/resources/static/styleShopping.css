@@ -1,0 +1,64 @@
+.divTitle {
+    margin-top: 25px;
+    border: 1px solid red;
+    width: 100%;
+}
+.images {
+    width: 75%;
+    align-content: center;
+}
+.rowSpacer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.titleParent{
+    margin-top: 25px;
+    border: 1px solid red;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 35px;
+}
+.titleChild{
+    border: 1px solid black;
+    vertical-align: middle;
+    display: inline-block;
+    /*text-align: center;*/
+}
+.imagesParent{
+    margin-top: 25px;
+    border: 1px solid red;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 35px;
+}
+.imagesChild{
+    border: 1px solid black;
+    vertical-align: middle;
+    display: inline-block;
+    /*text-align: center;*/
+}
+.textParent{
+    margin-top: 10px;
+    border: 1px solid red;
+    text-align: center;
+
+}
+.textChild{
+    border: 1px solid black;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    width: 252px
+}
+.btnWidth {
+    width: 85px;
+}
+.itemText {
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+}
+.itemTotals {
+    font-family: Arial;
+    font-size: large;
+}

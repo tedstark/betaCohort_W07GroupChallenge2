@@ -4,28 +4,61 @@
         <meta charset="UTF-8"/>
         <title>BetaAde Online Store</title>
         <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-        <link rel="stylesheet" th:href="@{/shopping.css}"/>
+        <link rel="stylesheet" th:href="@{/styleShopping.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
         <script type="text/javascript" th:src="@{/shopping.js}"></script>
+
     </head>
     <body>
         <div class="container">
-            <div class="row divLemonade">
-                <div class="title">
-                    <img class="imgBorder" th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+            <div class="titleParent">
+                <div class="titleChild">
+                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
                 </div>
             </div>
             <div class="rowSpacer"></div>
-            <div class="row divLemonade">
-                <div>
-                    <img class="imgBorder" th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
+            <div class="imagesParent">
+                <div class="imagesChild">
+                    <img th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
                 </div>
-                <div>
-                    <img class="imgBorder" th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
+                <div class="imagesChild">
+                    <img th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
                 </div>
-                <div>
-                    <img class="imgBorder" th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
+                <div class="imagesChild">
+                    <img th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="textChild">
+                    <form>
+                        <p class="itemText">Best Lemonade Ever!</p>
+                        <input style="margin-bottom: 5px" type="text" id="inputLemon" placeholder="Enter Quantity"/>
+                    </form>
+                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddLemon">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemLemon">Remove</button>
+                    <p class="itemTotals" id="txtQtyLemon">Quantity in Cart:</p>
+                    <p class="itemTotals" id="txtCstLemon">Cost in Cart:</p>
+                </div>
+                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+                    <form>
+                        <p class="itemText">Delicious Limeade!</p>
+                        <input style="margin-bottom: 5px" type="text" id="inputLime" placeholder="Enter Quantity"/>
+                    </form>
+                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddLime">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemLime">Remove</button>
+                    <p class="itemTotals" id="txtQtyLime">Quantity in Cart:</p>
+                    <p class="itemTotals" id="txtCstLime">Cost in Cart:</p>
+                </div>
+                <div class="textChild">
+                    <form>
+                        <p class="itemText">Great Pink Lemonade!</p>
+                        <input style="margin-bottom: 5px" type="text" id="inputPink" placeholder="Enter Quantity"/>
+                    </form>
+                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddPink">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemPink">Remove</button>
+                    <p class="itemTotals" id="txtQtyPink">Quantity in Cart:</p>
+                    <p class="itemTotals" id="txtCstPink">Cost in Cart:</p>
                 </div>
             </div>
         </div>

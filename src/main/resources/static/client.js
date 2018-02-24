@@ -12,5 +12,5 @@ $(document).ready(function(){
 
 //Start the application
 function init(){
-    shoppingPage();
+    // shoppingPage();
 }
