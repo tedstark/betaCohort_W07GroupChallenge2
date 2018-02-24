@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BetaAde Online Store</title>
+        <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+        <link rel="stylesheet" th:href="@{/shopping.css}"/>
+        <script type="text/javascript" th:src="@{/jquery.js}"></script>
+        <script type="text/javascript" th:src="@{/client.js}"></script>
+        <script type="text/javascript" th:src="@{/shopping.js}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row divLemonade">
+                <div class="title">
+                    <img class="imgBorder" th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+                </div>
+            </div>
+            <div class="rowSpacer"></div>
+            <div class="row divLemonade">
+                <div>
+                    <img class="imgBorder" th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
+                </div>
+                <div>
+                    <img class="imgBorder" th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
+                </div>
+                <div>
+                    <img class="imgBorder" th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

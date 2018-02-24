@@ -9,5 +9,10 @@ public class AppController {
     public String indexRoute(){
         return "index";
     }
+
+    @RequestMapping("/shopping")
+    public String shoppingRoute(){
+        return "shopping";
+    }
 }
 
