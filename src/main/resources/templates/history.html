@@ -2,24 +2,59 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>BetaAde Online Store: Order History Page</title>
+    <title>BetaAde Online Store: Order History</title>
     <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
     <link rel="stylesheet" th:href="@{/style.css}"/>
-
     <script type="text/javascript" th:src="@{/jquery.js}"></script>
     <script type="text/javascript" th:src="@{/client.js}"></script>
+    <script type="text/javascript" th:src="@{/confirm.js}"></script>
     <script type="text/javascript" th:src="@{/history.js}"></script>
-
+</head>
 <body>
-<div id="divHistory" class="container">
-    <div class="row">
-        <button onclick="goOrder()" class="btn btn-info">Back</button>
+<div id="divhistory" class="container">
+    <h1 class="pgHdg lead text-center">Order History</h1>
+    <p></p><p></p><p></p><p></p>
+    <button class="btn btn-info" onclick="hgoHome()">Home Page</button>
+    <button class="btn btn-info" onclick="hgoConfirm()">Order Confirmation</button>
+    <p></p><p></p>
+    <div id="colhdgs" class="row">
+        <div class="col-md-2 box">
+            <p class="colhdg lead text-center">Order Date</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="colhdg lead text-center">Order Number</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="colhdg lead text-center">Customer</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="colhdg lead text-center">Total Qty.</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="colhdg lead text-center">Total Cost</p>
+        </div>
     </div>
-    <!--<div class="row" th:each="entry : ${orderrepo}">-->
-        <!--<div class="col-md-12">-->
-            <!--<p th:text="${order.item} + ' ' + ${order.qty} + ' ' + ${order.cost} + ' = ' + ${entry.solution} " class="solution"></p>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="row" th:each="entry : ${orderlist}">
+        <!--<p th:text="${entry.ordNum} -->
+        <!--+ ' ' + ${entry.custName} -->
+        <!--+ ' ' + ${entry.totQty} -->
+        <!--+ ' $' + ${entry.totCost}"></p>-->
+        <div class="col-md-2 box">
+            <p th:text="${entry.ordDate}"></p>
+        </div>
+        <div class="col-md-2 box">
+            <p th:text="${entry.ordNum}"></p>
+        </div>
+        <div class="col-md-2 box">
+            <p th:text="${entry.custName}"></p>
+        </div>
+        <div class="col-md-2 box">
+            <p th:text="${entry.totQty}"></p>
+        </div>
+        <div class="col-md-2 box">
+            <p th:text="${entry.totCost}"></p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

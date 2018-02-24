@@ -16,7 +16,7 @@ function updateTotals() {
     $("#pageFeedback").text("");
 }
 
-function addLemonade() {
+function addLemon() {
     if (($("#inputLemon").val()) == "") {
         $("#pageFeedback").text("Enter a Quantity!");
     } else {
@@ -27,7 +27,7 @@ function addLemonade() {
         updateTotals()
     }
 }
-function remLemonade() {
+function remLemon() {
     if (($("#inputLemon").val()) == "") {
         $("#pageFeedback").text("Enter a Quantity!");
     } else {

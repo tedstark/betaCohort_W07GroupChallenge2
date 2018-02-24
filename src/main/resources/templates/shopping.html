@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8"/>
-        <title>BetaAde Online Store</title>
+        <title>BetaAde Online Store (Test)</title>
         <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
         <link rel="stylesheet" th:href="@{/styleShopping.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
@@ -34,8 +34,8 @@
                         <p class="itemText">Best Lemonade Ever!</p>
                         <input class="orderInput" type="number" id="inputLemon" placeholder="Quantity"/>
                     </form>
-                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddLemon">Add</button>
-                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemLemon">Remove</button>
+                    <button class="btn btn-info btnWidth" onclick="addLemon()" id="btnAddLemon">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remLemon()" id="btnRemLemon">Remove</button>
                     <p class="itemTotals" id="txtQtyLemon">Quantity in Cart:</p>
                     <p class="itemTotals" id="txtCstLemon">Cost in Cart:</p>
                 </div>
@@ -62,7 +62,7 @@
             </div>
             <div class="textParent">
                 <div class="textChild">
-                    <button class="btn btn-info" onclick="remLemonade()" id="btnHistory">See Order History</button>
+                    <button class="btn btn-info" onclick="goToHistory()" id="btnHistory">See Order History</button>
                 </div>
                 <div class="textChild" style="margin-left: 35px; margin-right: 35px">
                     <p class="itemText" id="pageFeedback"></p>

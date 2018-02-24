@@ -2,13 +2,70 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>BetaAde Online Store: Checkout Page</title>
+    <title>BetaAde Online Store: Confirmation Page</title>
     <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
     <link rel="stylesheet" th:href="@{/style.css}"/>
     <script type="text/javascript" th:src="@{/jquery.js}"></script>
     <script type="text/javascript" th:src="@{/client.js}"></script>
+    <script type="text/javascript" th:src="@{/confirm.js}"></script>
 </head>
 <body>
-
+<p></p><p></p>
+<div class="container">
+    <h1 class="lead text-center">Order Confirmation</h1>
+    <p></p><p></p><p></p><p></p>
+    <input id="custName" type="text" placeholder="Enter Cust Name"/>
+    <p></p>
+    <button onclick="cgoHome()" class="btn btn-info">Cancel Order</button>
+    <p></p>
+    <button onclick="cgoHistory()" class="btn btn-info">View Order History</button>
+    <p></p>
+    <button onclick="cconfirmOrder()" class="btn btn-info">Order Confirm Page</button>
+    <p></p><p></p>
+    <div class="row">
+        <div class="col-md-2 box">
+            <p class="name lead text-center">Product</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="name lead text-center">Price</p>
+        </div>
+        <div class="col-md-2 box">
+            <p class="name lead text-center">Order Qty.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 box">
+            <p id="Nam1" class="name lead text-center">Lemonade</p>
+        </div>
+        <div class="col-md-2 box">
+            <p id="Cst1" data-p1 ="1.50"  class="name lead text-center">1.50</p>
+        </div>
+        <div class="col-md-2 box">
+            <input id="Qty1" type="text" placeholder="Enter Qty"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 box">
+            <p id="Nam2" class="name lead text-center">Limeade</p>
+        </div>
+        <div class="col-md-2 box">
+            <p id="Cst2" data-p2 ="2.00"  class="name lead text-center">2.00</p>
+        </div>
+        <div class="col-md-2 box">
+            <input id="Qty2" type="text" placeholder="Enter Qty"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 box">
+            <p id="Nam3" class="name lead text-center">Pink Lemonade</p>
+        </div>
+        <div class="col-md-2 box">
+            <p id="Cst3" data-p3 ="2.50" class="name lead text-center">2.50</p>
+        </div>
+        <div class="col-md-2 box">
+            <input id="Qty3" type="text" placeholder="Enter Qty"/>
+        </div>
+    </div>
+</div>
 </body>
 </html>
