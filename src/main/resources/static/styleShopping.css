@@ -19,7 +19,7 @@
     letter-spacing: 35px;
 }
 .titleChild{
-    border: 1px solid black;
+
     vertical-align: middle;
     display: inline-block;
     /*text-align: center;*/
@@ -32,7 +32,7 @@
     letter-spacing: 35px;
 }
 .imagesChild{
-    border: 1px solid black;
+
     vertical-align: middle;
     display: inline-block;
     /*text-align: center;*/
@@ -44,7 +44,6 @@
 
 }
 .textChild{
-    border: 1px solid black;
     vertical-align: middle;
     display: inline-block;
     text-align: center;
@@ -61,4 +60,12 @@
 .itemTotals {
     font-family: Arial;
     font-size: large;
+    margin-bottom: 5px;
+}
+.orderInput {
+    margin-bottom: 5px;
+    width: 100px
+}
+::-webkit-input-placeholder {
+    text-align: center;
 }

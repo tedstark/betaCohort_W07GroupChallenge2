@@ -7,7 +7,7 @@
         <link rel="stylesheet" th:href="@{/styleShopping.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
-        <script type="text/javascript" th:src="@{/shopping.js}"></script>
+        <script type="text/javascript" th:src="@{/shoppingPage.js}"></script>
 
     </head>
     <body>
@@ -17,7 +17,6 @@
                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
                 </div>
             </div>
-            <div class="rowSpacer"></div>
             <div class="imagesParent">
                 <div class="imagesChild">
                     <img th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
@@ -33,7 +32,7 @@
                 <div class="textChild">
                     <form>
                         <p class="itemText">Best Lemonade Ever!</p>
-                        <input style="margin-bottom: 5px" type="text" id="inputLemon" placeholder="Enter Quantity"/>
+                        <input class="orderInput" type="number" id="inputLemon" placeholder="Quantity"/>
                     </form>
                     <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddLemon">Add</button>
                     <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemLemon">Remove</button>
@@ -43,23 +42,33 @@
                 <div class="textChild" style="margin-left: 35px; margin-right: 35px">
                     <form>
                         <p class="itemText">Delicious Limeade!</p>
-                        <input style="margin-bottom: 5px" type="text" id="inputLime" placeholder="Enter Quantity"/>
+                        <input class="orderInput" type="number" id="inputLime" placeholder="Quantity"/>
                     </form>
-                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddLime">Add</button>
-                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemLime">Remove</button>
+                    <button class="btn btn-info btnWidth" onclick="addLime()" id="btnAddLime">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remLime()" id="btnRemLime">Remove</button>
                     <p class="itemTotals" id="txtQtyLime">Quantity in Cart:</p>
                     <p class="itemTotals" id="txtCstLime">Cost in Cart:</p>
                 </div>
                 <div class="textChild">
                     <form>
                         <p class="itemText">Great Pink Lemonade!</p>
-                        <input style="margin-bottom: 5px" type="text" id="inputPink" placeholder="Enter Quantity"/>
+                        <input class="orderInput" type="number" id="inputPink" placeholder="Quantity"/>
                     </form>
-                    <button class="btn btn-info btnWidth" onclick="addLemonade()" id="btnAddPink">Add</button>
-                    <button class="btn btn-info btnWidth" onclick="remLemonade()" id="btnRemPink">Remove</button>
+                    <button class="btn btn-info btnWidth" onclick="addPink()" id="btnAddPink">Add</button>
+                    <button class="btn btn-info btnWidth" onclick="remPink()" id="btnRemPink">Remove</button>
                     <p class="itemTotals" id="txtQtyPink">Quantity in Cart:</p>
                     <p class="itemTotals" id="txtCstPink">Cost in Cart:</p>
                 </div>
+            </div>
+            <div class="textParent">
+                <div class="textChild">
+                    <button class="btn btn-info" onclick="remLemonade()" id="btnHistory">See Order History</button>
+                </div>
+                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+                    <p class="itemText" id="pageFeedback"></p>
+                </div>
+                <div class="textChild">
+                    <button class="btn btn-info" onclick="goToCust()" id="btnCustPage">Confirm Cust Info</button>                </div>
             </div>
         </div>
     </body>
