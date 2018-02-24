@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
-    <meta charset="UTF-8"/>
-    <title>BetaAde Online Store Home Page</title>
-    <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-    <link rel="stylesheet" th:href="@{/style.css}"/>
-    <script type="text/javascript" th:src="@{/jquery.js}"></script>
-    <script type="text/javascript" th:src="@{/client.js}"></script>
-</head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class ="title">
-            <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+        <meta charset="UTF-8"/>
+        <title>BetaAde Online Store Home Page</title>
+        <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+        <link rel="stylesheet" th:href="@{/style.css}"/>
+        <script type="text/javascript" th:src="@{/jquery.js}"></script>
+        <script type="text/javascript" th:src="@{/client.js}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="titleParent">
+                <div class="titleChild">
+                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="images">
+                    <img th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
+                    <img th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
+                    <img th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="images">
-            <img th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
-            <img th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
-            <img th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
-        </div>
-    </div>
-</div>
-</body>
+    </body>
 </html>

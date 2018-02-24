@@ -2,14 +2,6 @@ $(document).ready(function() {
     console.log("doc ready confirm js");
 });
 
-function cgoHome() {
-    window.location.href = "/";
-}
-
-function cgoHistory() {
-    window.location.href = "/history";
-}
-
 function cconfirmOrder() {
     var cnam = ($("#custName").val());
 

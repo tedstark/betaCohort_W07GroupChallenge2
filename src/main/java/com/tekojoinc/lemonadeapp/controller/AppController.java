@@ -21,8 +21,12 @@ public class AppController {
     public String shoppingRoute(){
         return "shopping";
     }
+    @RequestMapping("/cust")
+    public String custRoute(){
+        return "customer";
+    }
     @RequestMapping("/confirm")
-    public String goConfirmPage(){
+    public String confirmRoute(){
         return "confirm";
     }
     @RequestMapping("/history")
@@ -50,4 +54,3 @@ public class AppController {
         return "confirm";
     }
 }
-

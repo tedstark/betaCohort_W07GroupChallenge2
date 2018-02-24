@@ -8,3 +8,14 @@ container {
 .images {
     width: 75%;
 }
+.titleParent{
+    margin-top: 25px;
+    border: 1px solid red;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 35px;
+}
+.titleChild{
+    vertical-align: middle;
+    display: inline-block;
+}

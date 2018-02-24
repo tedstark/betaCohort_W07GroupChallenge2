@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8"/>
-    <title>BetaAde Online Store: Customer Information</title>
-    <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-    <link rel="stylesheet" th:href="@{/style.css}"/>
-    <script type="text/javascript" th:src="@{/jquery.js}"></script>
-    <script type="text/javascript" th:src="@{/client.js}"></script>
-    <script type="text/javascript" th:src="@{/customerInfo.js}"></script>
-</head>
-<body>
-    <div class="container">
-
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BetaAde Online Store: Customer Information</title>
+        <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+        <link rel="stylesheet" th:href="@{/style.css}"/>
+        <script type="text/javascript" th:src="@{/jquery.js}"></script>
+        <script type="text/javascript" th:src="@{/client.js}"></script>
+        <script type="text/javascript" th:src="@{/customerInfo.js}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="titleParent">
+                <div class="titleChild">
+                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

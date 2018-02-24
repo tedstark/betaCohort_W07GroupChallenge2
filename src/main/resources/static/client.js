@@ -15,4 +15,14 @@ $(document).ready(function(){
 function init(){
     shoppingInit();
 }
+function goToHome() {
+    window.location.href = "/";
+}
+function goToCust() {
+    window.location.href = "/customer";
+}
+function goToHistory() {
+    window.location.href = "/history";
+}
+
 
