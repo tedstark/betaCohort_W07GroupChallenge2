@@ -7,6 +7,7 @@
         <link rel="stylesheet" th:href="@{/style.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
+        <script type="text/javascript" th:src="@{/summary.js}"></script>
     </head>
     <body>
         <div class="container">
@@ -18,6 +19,37 @@
             <div class="textParent">
                 <div class="indexHeaderDiv">
                     <p class="indexHeaderText">Order Summary/Checkout</p>
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="indexHeaderDiv">
+                    <p th:text="${order.custName}"></p>
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="textChild">
+                    <form>
+                        <p class="itemText">Best Lemonade Ever!</p>
+                    </form>
+                    <p class="itemTotals" id="txtQtyLemon">Quantity Ordered:</p>
+                    <p th:text="${order.totLemon}"></p>
+                    <p class="itemTotals" id="txtCstLemon">Total Cost:</p>
+                </div>
+                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+                    <form>
+                        <p class="itemText">Delicious Limeade!</p>
+                    </form>
+                    <p class="itemTotals" id="txtQtyLime">Quantity Ordered:</p>
+                    <p th:text="${order.totLime}"></p>
+                    <p class="itemTotals" id="txtCstLime">Total Cost:</p>
+                </div>
+                <div class="textChild">
+                    <form>
+                        <p class="itemText">Great Pink Lemonade!</p>
+                    </form>
+                    <p class="itemTotals" id="txtQtyPink">Quantity Ordered:</p>
+                    <p th:text="${order.totPink}"></p>
+                    <p class="itemTotals" id="txtCstPink">Total Cost:</p>
                 </div>
             </div>
             <div class="textParent">

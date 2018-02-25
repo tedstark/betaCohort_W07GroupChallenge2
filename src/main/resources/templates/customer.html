@@ -24,15 +24,19 @@
             <div class="custInputSection">
                 <div th:class="col-md-auto">
                     <form th:class="custInputField">
-                        <input type="number" id="inputName" placeholder="Quantity"/>
+                        <input type="text" id="inputName" placeholder="Enter Customer Name"/>
                         <p th:class="custInputText">Customer Name</p>
-                        <input type="number" id="inputAdd1" placeholder="Quantity"/>
-                        <p th:class="custInputText">Address 1</p>
-                        <input type="number" id="inputAdd2" placeholder="Quantity"/>
-                        <p th:class="custInputText">Address 2</p>
-                        <input type="number" id="inputPayType" placeholder="Quantity"/>
+                        <input type="text" id="inputAdd" placeholder="Enter Address"/>
+                        <p th:class="custInputText">Address</p>
+                        <input type="text" id="inputCity" placeholder="Enter City"/>
+                        <p th:class="custInputText">City</p>
+                        <input type="text" id="inputST" placeholder="Enter State/Province"/>
+                        <p th:class="custInputText">State</p>
+                        <input type="text" id="inputZip" placeholder="Enter Zip/Postal Code"/>
+                        <p th:class="custInputText">Zip</p>
+                        <input type="text" id="inputPayType" placeholder="Enter Payment Type"/>
                         <p th:class="custInputText">Payment Type</p>
-                        <input type="number" id="inputPayCard" placeholder="Quantity"/>
+                        <input type="number" id="inputPayCard" placeholder="Enter Card Number"/>
                         <p th:class="custInputText">Card Number</p>
                     </form>
                 </div>

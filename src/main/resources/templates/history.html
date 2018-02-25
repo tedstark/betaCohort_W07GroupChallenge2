@@ -41,10 +41,6 @@
                     </div>
                 </div>
                 <div class="row" th:each="entry : ${orderlist}">
-                    <!--<p th:text="${entry.ordNum} -->
-                    <!--+ ' ' + ${entry.custName} -->
-                    <!--+ ' ' + ${entry.totQty} -->
-                    <!--+ ' $' + ${entry.totCost}"></p>-->
                     <div class="col-md-2 box">
                         <p th:text="${entry.ordDate}"></p>
                     </div>
@@ -66,7 +62,7 @@
                 <div class="textChild">
                 </div>
                 <div class="textChild">
-                    <button onclick="goToHome()" class="btn btn-info">Back to Home</button>
+                    <button onclick="goHome()" class="btn btn-info">Back to Home</button>
                 </div>
                 <div class="textChild">
                 </div>

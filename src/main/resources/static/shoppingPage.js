@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    shoppingInit();
 });
 
 function shoppingInit() {
@@ -86,8 +86,25 @@ function remPink() {
             $("#pageFeedback").text("Not that many in your cart!")
         } else {
             qtyPink -= numFilled;
-            cstPink=(qtyLime*cstDrink).toFixed(2);
+            cstPink=(qtyPink*cstDrink).toFixed(2);
             updateTotals()
         }
     }
+}
+
+function goToCust() {
+    // send customer order to server
+    var cd = new Date();
+    var odte = (cd.getFullYear() + '-' + (cd.getMonth()+1) + '-' + cd.getDate());
+    // add a unique order number using date,hours,minutes,seconds
+    var onum = (cd.getFullYear()+(cd.getMonth()+1)+cd.getDate()+cd.getHours()+cd.getMinutes()+cd.getSeconds());
+    var cnam = "*NEWCUSTOMER*";
+    var leqty = qtyLemon.toString();
+    var liqty = qtyLime.toString();
+    var piqty = qtyPink.toString();
+    console.log("right before call to server");
+    console.log("qtyLemon",qtyLemon,"qtyLime",qtyLime,"qtyPink",qtyPink);
+    console.log("/order/"+odte+"/"+onum+"/"+cnam+"/"+leqty+"/"+liqty+"/"+piqty);
+    window.location.href = "/order/"+odte+"/"+onum+"/"+cnam+"/"+leqty+"/"+liqty+"/"+piqty;
+
 }

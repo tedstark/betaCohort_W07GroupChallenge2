@@ -33,28 +33,38 @@ public class AppController {
     public String summaryRoute(){
         return "summary";
     }
+
+    // display orders on history page
     @RequestMapping("/history")
     public String getOrders(ModelMap modelMap){
-        // CHECK THAT ORDER HISTORY NOT EMPTY
         List<OrderHistory> orderlist = OrderDB.getAllOrders();
-//        if (orderlist.isEmpty()) {
-//            return "history";
-//        } else {
-        modelMap.put("orderlist", orderlist);
+        modelMap.put("entry", orderlist);
         return "history";
     }
-    @RequestMapping("/order/{odte}/{onum}/{cnam}/{tqty}/{tcst}")
+
+    // add order to the order history array
+    @RequestMapping("/order/{odte}/{onum}/{cnam}/{leqty}/{liqty}/{piqty}")
     public String addToHist(
             @PathVariable String odte,
             @PathVariable String onum,
             @PathVariable String cnam,
-            @PathVariable String tqty,
-            @PathVariable String tcst,
+            @PathVariable String leqty,
+            @PathVariable String liqty,
+            @PathVariable String piqty,
             ModelMap modelMap
     ){
-        OrderHistory newEntry = new OrderHistory(odte,onum,cnam,tqty,tcst);
-        OrderDB.addEntry(newEntry);
-        modelMap.put("entry", newEntry);
-        return "confirm";
+        OrderHistory newHist = new OrderHistory(odte,onum,cnam,leqty,liqty,piqty);
+        OrderDB.addHist(newHist);
+        modelMap.put("order", newHist);
+        return "customer";
     }
+
+    // update customer name to last order
+    @RequestMapping("/custname/{cnam}")
+    public String addNameToOrder(@PathVariable String cnam, ModelMap modelMap){
+        OrderHistory order = OrderDB.addCustName(cnam);
+        modelMap.put("order", order);
+        return "summary";
+    }
+
 }

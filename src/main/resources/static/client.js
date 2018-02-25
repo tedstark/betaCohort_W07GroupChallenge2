@@ -8,13 +8,9 @@ var cstLime=0;
 var totalQty= [];
 
 $(document).ready(function(){
-    init();
+
 });
 
-//Start the application
-function init(){
-    shoppingInit();
-}
 function goToHome() {
     window.location.href = "/";
 }
@@ -23,9 +19,6 @@ function goToShopping(){
 }
 function goToCust() {
     window.location.href = "/cust";
-}
-function goToSummary() {
-    window.location.href = "/summary";
 }
 function goToSummary() {
     window.location.href = "/summary";
