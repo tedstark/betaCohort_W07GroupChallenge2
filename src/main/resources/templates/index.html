@@ -15,11 +15,39 @@
                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
                 </div>
             </div>
-            <div class="row">
-                <div class="images">
+            <div class="textParent">
+                <div class="indexHeaderDiv">
+                    <p class="indexHeaderText">The Best Lemonade You'll Never Receive!!</p>
+                </div>
+            </div>
+            <div class="imagesParent">
+                <div class="imagesChild">
                     <img th:src="@{'/images/' + ${'lemonade'} + '.png'}" alt="png" />
+                </div>
+                <div class="imagesChild">
                     <img th:src="@{'/images/' + ${'limeade'} + '.png'}" alt="png" />
+                </div>
+                <div class="imagesChild">
                     <img th:src="@{'/images/' + ${'pinklemonaid'} + '.png'}" alt="png" />
+                </div>
+            </div>
+            <div class="textParent">
+                <!--<div class="textChild">-->
+                <div class="indexIpsumDiv">
+                    <p class="indexIpsumText">Cupcake ipsum dolor sit. Amet donut wafer. Pudding gummi bears gummies fruitcake cupcake marshmallow jelly-o ice cream apple pie. Marzipan tootsie roll donut caramels. Marshmallow fruitcake cotton candy. Lemon drops topping biscuit pastry croissant chocolate bar liquorice toffee toffee. Marzipan bonbon bonbon. Icing pudding fruitcake candy pudding tootsie roll jelly beans biscuit lemon drops. Chocolate cake muffin cheesecake gummies marshmallow.</p>
+                    <p></p>
+                    <p class="indexIpsumText">  Jujubes caramels tootsie roll. Bonbon macaroon gummi bears powder oat cake. Fruitcake dragée fruitcake marzipan chocolate bar sugar plum jelly-o.</p>
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="textChild">
+                    <button class="btn btn-info btnHome" onclick="goToHistory()" id="btnHistory">See Order History</button>
+                </div>
+                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+                    <p class="itemText" id="pageFeedback"></p>
+                </div>
+                <div class="textChild">
+                    <button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Place Order</button>
                 </div>
             </div>
         </div>

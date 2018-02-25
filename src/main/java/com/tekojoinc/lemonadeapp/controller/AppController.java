@@ -29,6 +29,10 @@ public class AppController {
     public String confirmRoute(){
         return "confirm";
     }
+    @RequestMapping("/summary")
+    public String summaryRoute(){
+        return "summary";
+    }
     @RequestMapping("/history")
     public String getOrders(ModelMap modelMap){
         // CHECK THAT ORDER HISTORY NOT EMPTY

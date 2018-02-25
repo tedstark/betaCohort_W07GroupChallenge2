@@ -18,8 +18,17 @@ function init(){
 function goToHome() {
     window.location.href = "/";
 }
+function goToShopping(){
+    window.location.href = "/shopping";
+}
 function goToCust() {
-    window.location.href = "/customer";
+    window.location.href = "/cust";
+}
+function goToSummary() {
+    window.location.href = "/summary";
+}
+function goToSummary() {
+    window.location.href = "/summary";
 }
 function goToHistory() {
     window.location.href = "/history";

@@ -2,9 +2,9 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8"/>
-        <title>BetaAde Online Store (Test)</title>
+        <title>BetaAde Online Store: Order Page</title>
         <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-        <link rel="stylesheet" th:href="@{/styleShopping.css}"/>
+        <link rel="stylesheet" th:href="@{/style.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
         <script type="text/javascript" th:src="@{/shoppingPage.js}"></script>
@@ -14,6 +14,11 @@
             <div class="titleParent">
                 <div class="titleChild">
                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="indexHeaderDiv">
+                    <p class="indexHeaderText">Order Page</p>
                 </div>
             </div>
             <div class="imagesParent">
@@ -61,13 +66,14 @@
             </div>
             <div class="textParent">
                 <div class="textChild">
-                    <button class="btn btn-info" onclick="goToHistory()" id="btnHistory">See Order History</button>
+                    <button class="btn btn-info" onclick="goToHome()" id="btnHomePage">Back to Home</button>
                 </div>
                 <div class="textChild" style="margin-left: 35px; margin-right: 35px">
                     <p class="itemText" id="pageFeedback"></p>
                 </div>
                 <div class="textChild">
-                    <button class="btn btn-info" onclick="goToCust()" id="btnCustPage">Confirm Cust Info</button>                </div>
+                    <button class="btn btn-info" onclick="goToCust()" id="btnCustPage">Confirm Cust Info</button>
+                </div>
             </div>
         </div>
     </body>

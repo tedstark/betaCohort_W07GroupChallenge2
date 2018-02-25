@@ -5,7 +5,6 @@
         <title>BetaAde Online Store: Confirmation Page</title>
         <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
         <link rel="stylesheet" th:href="@{/style.css}"/>
-        <link rel="stylesheet" th:href="@{/styleShopping.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
         <script type="text/javascript" th:src="@{/confirm.js}"></script>
@@ -18,16 +17,8 @@
                 </div>
             </div>
             <div class="textParent">
-                <div class="textChild">
-                    <button onclick="goToHome()" class="btn btn-info">Back to Home</button>
-                </div>
-                <div class="textChild">
-                    <!--<button onclick="cgoHistory()" class="btn btn-info">View Order History</button>-->
-                    <h1 class="lead text-center">Order Confirmation</h1>
-                </div>
-                <div class="textChild">
-                    <!--<input id="custName" type="text" placeholder="Enter Cust Name"/>-->
-                    <button onclick="goToHome()" class="btn btn-info">Back to Home</button>
+                <div class="indexHeaderDiv">
+                    <p class="indexHeaderText">Order Confirmation</p>
                 </div>
             </div>
             <div class="row">
@@ -73,7 +64,16 @@
                 <div class="col-md-2 box">
                     <input id="Qty3" type="text" placeholder="Enter Qty"/>
                 </div>
-                <button onclick="cconfirmOrder()" class="btn btn-info">Confirm Order!</button>
+
+            </div>
+            <div class="textParent">
+              <div class="textChild">
+              </div>
+              <div class="textChild">
+                  <button onclick="goToHome()" class="btn btn-info">Back to Home</button>
+              </div>
+              <div class="textChild">
+              </div>
             </div>
         </div>
     </body>

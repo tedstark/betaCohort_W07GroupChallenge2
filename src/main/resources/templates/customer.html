@@ -16,6 +16,33 @@
                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
                 </div>
             </div>
+            <div class="textParent">
+                <div class="indexHeaderDiv">
+                    <p class="indexHeaderText">Customer Shipping/Payment</p>
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="row">
+                    <form>
+                        <div>
+                        <input class="orderInput" type="number" id="inputName" placeholder="Quantity"/>
+                        <p class="itemText">Customer Name</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="textParent">
+                <div class="textChild">
+                    <button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Back to Shop</button>
+                </div>
+                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+                    <p class="itemText" id="pageFeedback"></p>
+                </div>
+                <div class="textChild">
+                    <button class="btn btn-info btnHome" onclick="goToSummary()" id="btnConfirm">See Cart</button>
+                </div>
+
+            </div>
         </div>
     </body>
 </html>
