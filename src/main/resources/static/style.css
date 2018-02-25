@@ -88,3 +88,16 @@ container {
     text-align: center;
     width: 826px
 }
+.custInputText{
+    font-family: Arial;
+    font-size: small;
+    text-align: left;
+    margin-top: 1px;
+}
+.custInputSection {
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.custInputField {
+    margin-top: 10px;
+}

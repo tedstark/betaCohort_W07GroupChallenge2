@@ -21,13 +21,19 @@
                     <p class="indexHeaderText">Customer Shipping/Payment</p>
                 </div>
             </div>
-            <div class="textParent">
-                <div class="row">
-                    <form>
-                        <div>
-                        <input class="orderInput" type="number" id="inputName" placeholder="Quantity"/>
-                        <p class="itemText">Customer Name</p>
-                        </div>
+            <div class="custInputSection">
+                <div th:class="col-md-auto">
+                    <form th:class="custInputField">
+                        <input type="number" id="inputName" placeholder="Quantity"/>
+                        <p th:class="custInputText">Customer Name</p>
+                        <input type="number" id="inputAdd1" placeholder="Quantity"/>
+                        <p th:class="custInputText">Address 1</p>
+                        <input type="number" id="inputAdd2" placeholder="Quantity"/>
+                        <p th:class="custInputText">Address 2</p>
+                        <input type="number" id="inputPayType" placeholder="Quantity"/>
+                        <p th:class="custInputText">Payment Type</p>
+                        <input type="number" id="inputPayCard" placeholder="Quantity"/>
+                        <p th:class="custInputText">Card Number</p>
                     </form>
                 </div>
             </div>
