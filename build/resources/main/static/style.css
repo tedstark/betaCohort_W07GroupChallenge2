@@ -1,0 +1,126 @@
+container {
+    display: inline-grid;
+    float: top;
+}
+.title {
+    width: 25%;
+}
+.images {
+    width: 75%;
+}
+.titleParent{
+    margin-top: 25px;
+    border: 1px solid red;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 35px;
+}
+.titleChild{
+    vertical-align: middle;
+    display: inline-block;
+    /*text-align: center;*/
+}
+.imagesParent{
+    margin-top: 10px;
+    border: 1px solid red;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 35px;
+}
+.imagesChild{
+    vertical-align: middle;
+    display: inline-block;
+    /*text-align: center;*/
+}
+.textParent{
+    margin-top: 10px;
+    border: 1px solid red;
+    text-align: center;
+}
+.textChild{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    width: 252px
+}
+.btnWidth {
+    width: 85px;
+}
+.btnHome {
+    width: 150px;
+}
+.itemText {
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+}
+.itemTotals {
+    font-family: Arial;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.orderInput {
+    margin-bottom: 5px;
+    width: 100px
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.indexIpsumDiv{
+    vertical-align: middle;
+    display: inline-block;
+}
+.indexIpsumText {
+    font-family: Arial;
+    font-size: large;
+    margin-bottom: 5px;
+    text-align: justify;
+    width: 826px
+}
+.indexHeaderDiv{
+    vertical-align: middle;
+    display: inline-block;
+}
+.indexHeaderText {
+    font-family: Arial;
+    font-size: xx-large;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 826px
+}
+.custInputText{
+    font-family: Arial;
+    font-size: small;
+    text-align: left;
+    margin-top: 1px;
+}
+.custInputSection {
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.custInputField {
+    margin-top: 10px;
+}
+.divTitle {
+    margin-top: 25px;
+    border: 1px solid red;
+    width: 100%;
+}
+.rowSpacer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cardNumber {
+    width: 175px
+}
+#colhdgs {
+    font-weight: bold;
+    font-size: 18px;
+ }
+#histrow {
+    font-size: 16px;
+}
