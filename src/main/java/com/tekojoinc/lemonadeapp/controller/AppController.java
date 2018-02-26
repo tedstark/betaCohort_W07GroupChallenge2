@@ -29,6 +29,7 @@ public class AppController {
     public String confirmRoute(){
         return "confirm";
     }
+
     @RequestMapping("/summary")
     public String summaryRoute(){
         return "summary";
@@ -60,7 +61,6 @@ public class AppController {
         modelMap.put("order", newHist);
         return "customer";
     }
-
     // update customer name to last order
     @RequestMapping("/custname/{cnam}")
     public String addNameToOrder(
