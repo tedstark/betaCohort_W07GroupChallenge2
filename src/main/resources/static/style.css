@@ -66,6 +66,10 @@ container {
 ::-webkit-input-placeholder {
     text-align: center;
 }
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 .indexIpsumDiv{
     vertical-align: middle;
     display: inline-block;
@@ -109,6 +113,9 @@ container {
 .rowSpacer {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.cardNumber {
+    width: 175px
 }
 #colhdgs {
     font-weight: bold;

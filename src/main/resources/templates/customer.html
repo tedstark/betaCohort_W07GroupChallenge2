@@ -26,28 +26,30 @@
             <form th:class="custInputField">
                 <input type="text" id="inputName" placeholder="Enter Customer Name"/>
                 <p th:class="custInputText">Customer Name</p>
-                <input type="text" id="inputAdd" placeholder="Enter Address"/>
-                <p th:class="custInputText">Address</p>
-                <input type="text" id="inputCity" placeholder="Enter City"/>
-                <p th:class="custInputText">City</p>
-                <input type="text" id="inputST" placeholder="Enter State/Province"/>
-                <p th:class="custInputText">State</p>
-                <input type="text" id="inputZip" placeholder="Enter Zip/Postal Code"/>
-                <p th:class="custInputText">Zip</p>
-                <input type="text" id="inputPayType" placeholder="Enter Payment Type"/>
+                <input type="text" id="inputStreet" placeholder="Enter Address"/>
+                <p th:class="custInputText">Street</p>
+                <input type="text" id="inputCtySteZip" placeholder="Enter City"/>
+                <p th:class="custInputText">City/State/Zip</p>
+                <select name="Payment Type" size="0" id="inputCardType">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="amEx">AmEx</option>
+                    <option value="discover">Discover</option>
+                </select>
+                <!--<input type="text" id="inputPayType" placeholder="Enter Payment Type"/>-->
                 <p th:class="custInputText">Payment Type</p>
-                <input type="number" id="inputPayCard" placeholder="Enter Card Number"/>
+                <input type="number" min="12" max="16" id="inputPayCard" placeholder="################" class="cardNumber" />
                 <p th:class="custInputText">Card Number</p>
             </form>
         </div>
     </div>
     <div class="textParent">
-        <div class="textChild">
-            <button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Back to Shop</button>
-        </div>
-        <div class="textChild" style="margin-left: 35px; margin-right: 35px">
-            <p class="itemText" id="pageFeedback"></p>
-        </div>
+        <!--<div class="textChild">-->
+            <!--<button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Back to Shop</button>-->
+        <!--</div>-->
+        <!--<div class="textChild" style="margin-left: 35px; margin-right: 35px">-->
+            <!--<p class="itemText" id="pageFeedback"></p>-->
+        <!--</div>-->
         <div class="textChild">
             <button class="btn btn-info btnHome" onclick="goToSummary()" id="btnConfirm">See Cart</button>
         </div>
