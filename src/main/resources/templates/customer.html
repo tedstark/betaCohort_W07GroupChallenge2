@@ -1,71 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>BetaAde Online Store: Customer Information</title>
-        <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-        <link rel="stylesheet" th:href="@{/style.css}"/>
-        <script type="text/javascript" th:src="@{/jquery.js}"></script>
-        <script type="text/javascript" th:src="@{/shoppingPage.js}"></script>
-        <script type="text/javascript" th:src="@{/customerInfo.js}"></script>
-        <script type="text/javascript" th:src="@{/client.js}"></script>
-
-    </head>
-    <body>
-        <div class="container">
-            <div class="titleParent">
-                <div class="titleChild">
-                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
-                </div>
-            </div>
-            <div class="textParent">
-                <div class="indexHeaderDiv">
-                    <p class="indexHeaderText">Customer Shipping/Payment</p>
-                </div>
-            </div>
-            <div class="custInputSection">
-                <div th:class="col-md-auto">
-                    <form th:class="custInputField">
-                        <input type="text" id="inputName" placeholder="Enter Customer Name"/>
-                        <p th:class="custInputText">Customer Name</p>
-                        <input type="text" id="inputAdd1" placeholder="Street Address"/>
-                        <p th:class="custInputText">Address 1</p>
-                        <input type="text" id="inputAdd2" placeholder="City/State/Zip"/>
-                        <p th:class="custInputText">Address 2</p>
-                        <select name="Payment Type" size="0" id="inputCardType">
-                            <option value="visa">Visa</option>
-                            <option value="mastercard">Mastercard</option>
-                            <option value="amEx">AmEx</option>
-                            <option value="discover">Discover</option>
-                        </select>
-                        <!--<input type="text" id="inputAdd" placeholder="Enter Address"/>-->
-                        <!--<p th:class="custInputText">Address</p>-->
-                        <!--<input type="text" id="inputCity" placeholder="Enter City"/>-->
-                        <!--<p th:class="custInputText">City</p>-->
-                        <!--<input type="text" id="inputST" placeholder="Enter State/Province"/>-->
-                        <!--<p th:class="custInputText">State</p>-->
-                        <!--<input type="text" id="inputZip" placeholder="Enter Zip/Postal Code"/>-->
-                        <!--<p th:class="custInputText">Zip</p>-->
-                        <!--<input type="text" id="inputPayType" placeholder="Enter Payment Type"/>-->
-                        <!--<p th:class="custInputText">Payment Type</p>-->
-                        <input type="number" id="inputCardNum" placeholder="Card Number"/>
-                        <!--<input type="number" id="inputPayCard" placeholder="Enter Card Number"/>-->
-                        <p th:class="custInputText">Card Number</p>
-                    </form>
-                </div>
-            </div>
-            <div class="textParent">
-                <div class="textChild">
-                    <button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Back to Shop</button>
-                </div>
-                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
-                    <p class="itemText" id="pageFeedback"></p>
-                </div>
-                <div class="textChild">
-                    <button class="btn btn-info btnHome" onclick="goToSummary()" id="btnConfirm">See Cart</button>
-                </div>
-
-            </div>
+<head>
+    <meta charset="UTF-8"/>
+    <title>BetaAde Online Store: Customer Information</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <script type="text/javascript" th:src="@{/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/client.js}"></script>
+    <script type="text/javascript" th:src="@{/customerInfo.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="titleParent">
+        <div class="titleChild">
+            <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
         </div>
-    </body>
+    </div>
+    <div class="textParent">
+        <div class="indexHeaderDiv">
+            <p class="indexHeaderText">Customer Shipping/Payment</p>
+        </div>
+    </div>
+    <div class="custInputSection">
+        <div th:class="col-md-auto">
+            <form th:class="custInputField">
+                <input type="text" id="inputName" placeholder="Enter Customer Name"/>
+                <p th:class="custInputText">Customer Name</p>
+                <input type="text" id="inputAdd" placeholder="Enter Address"/>
+                <p th:class="custInputText">Address</p>
+                <input type="text" id="inputCity" placeholder="Enter City"/>
+                <p th:class="custInputText">City</p>
+                <input type="text" id="inputST" placeholder="Enter State/Province"/>
+                <p th:class="custInputText">State</p>
+                <input type="text" id="inputZip" placeholder="Enter Zip/Postal Code"/>
+                <p th:class="custInputText">Zip</p>
+                <input type="text" id="inputPayType" placeholder="Enter Payment Type"/>
+                <p th:class="custInputText">Payment Type</p>
+                <input type="number" id="inputPayCard" placeholder="Enter Card Number"/>
+                <p th:class="custInputText">Card Number</p>
+            </form>
+        </div>
+    </div>
+    <div class="textParent">
+        <div class="textChild">
+            <button class="btn btn-info btnHome" onclick="goToShopping()" id="btnShopPage">Back to Shop</button>
+        </div>
+        <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+            <p class="itemText" id="pageFeedback"></p>
+        </div>
+        <div class="textChild">
+            <button class="btn btn-info btnHome" onclick="goToSummary()" id="btnConfirm">See Cart</button>
+        </div>
+
+    </div>
+</div>
+</body>
 </html>

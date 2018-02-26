@@ -14,36 +14,43 @@ import java.util.List;
 @Controller
 public class AppController {
     @RequestMapping("/")
-    public String indexRoute(){
+    public String indexRoute() {
         return "index";
     }
+
     @RequestMapping("/shopping")
-    public String shoppingRoute(){
+    public String shoppingRoute() {
         return "shopping";
     }
+
     @RequestMapping("/cust")
-    public String custRoute(){
+    public String custRoute() {
         return "customer";
     }
+
     @RequestMapping("/confirm")
-    public String confirmRoute(){
+    public String confirmRoute() {
         return "confirm";
     }
 
     @RequestMapping("/summary")
-    public String summaryRoute(){
+    public String summaryRoute() {
         return "summary";
     }
 
     // display orders on history page
     @RequestMapping("/history")
-    public String getOrders(ModelMap modelMap){
-        List<OrderHistory> orderlist = OrderDB.getAllOrders();
-        modelMap.put("order", orderlist);
-        System.out.println("inside /history orderlist:");
-        System.out.println(orderlist);
-        return "history";
-    }
+    public String getOrders(ModelMap modelMap) {
+    modelMap.put("orderlist",OrderDB.getAllOrders());
+    return"history";
+}
+//    public String getOrders(ModelMap modelMap){
+//        List<OrderHistory> orderlist = OrderDB.getAllOrders();
+//        modelMap.put("order", orderlist);
+//        System.out.println("inside /history orderlist:");
+//        System.out.println(orderlist);
+//        return "history";
+//    }
 
     // add order to the order history array
     @RequestMapping("/order/{odte}/{onum}/{cnam}/{leqty}/{liqty}/{piqty}")
