@@ -1,93 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>BetaAde Online Store: Confirmation Page</title>
-        <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
-        <link rel="stylesheet" th:href="@{/style.css}"/>
-        <script type="text/javascript" th:src="@{/jquery.js}"></script>
-        <script type="text/javascript" th:src="@{/client.js}"></script>
-        <script type="text/javascript" th:src="@{/confirm.js}"></script>
-    </head>
-    <body>
-      <div class="container">
-            <div class="titleParent">
-                <div class="titleChild">
-                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
-                </div>
-            </div>
-            <div class="textParent">
-                <div class="indexHeaderDiv">
-                    <p class="indexHeaderText">Order Confirmation</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 box">
-                    <p class="name lead text-center">Product</p>
-                </div>
-                <div class="col-md-2 box">
-                    <p class="name lead text-center">Price</p>
-                </div>
-                <div class="col-md-2 box">
-                    <p class="name lead text-center">Order Qty.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 box">
-                    <p id="Nam1" class="name lead text-center">Lemonade</p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Cst1" class="name lead text-center">Qty. Ordered: </p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Qty1" class="name lead text-center">Total Cost: </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 box">
-                    <p id="Nam2" class="name lead text-center">Limeade</p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Cst2" class="name lead text-center">Qty. Ordered: </p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Qty2" class="name lead text-center">Total Cost: </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 box">
-                    <p id="Nam3" class="name lead text-center">Pink Lemonade</p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Cst3" class="name lead text-center">Qty. Ordered: </p>
-                </div>
-                <div class="col-md-2 box">
-                    <p id="Qty3" class="name lead text-center">Total Cost: </p>
-                </div>
+<head>
+    <meta charset="UTF-8"/>
+    <title>BetaAde Online Store: Confirmation Page</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <script type="text/javascript" th:src="@{/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/confirmorder.js}"></script>
+    <script type="text/javascript" th:src="@{/client.js}"></script>
 
-            </div>
-          <div class="row">
-              <div class="col-md-2 box">
-
-              </div>
-              <div class="col-md-2 box">
-                  <p id="Totqty" class="name lead text-center">Total Qty Ordered: </p>
-              </div>
-              <div class="col-md-2 box">
-                  <p id="Totcost" class="name lead text-center">Total Order Cost: </p>
-              </div>
-
-          </div>
-            <div class="textParent">
-              <div class="textChild">
-              </div>
-              <div class="textChild">
-                  <button onclick="goHome()" class="btn btn-info">Back to Home Page</button>
-              </div>
-              <div class="textChild">
-                  <button onclick="goHistory()" class="btn btn-info">View Order History</button>
-              </div>
-            </div>
+</head>
+<body>
+<div class="container">
+    <div class="titleParent">
+        <div class="titleChild">
+            <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
         </div>
-    </body>
+    </div>
+    <div class="textParent">
+        <div class="indexHeaderDiv">
+            <p class="red indexHeaderText">Order Confirmed!</p>
+        </div>
+    </div>
+    <div class="textParent">
+        <div class="indexHeaderDiv">
+            <p th:text="${order.custName}"></p>
+        </div>
+    </div>
+    <div class="textParent">
+        <div class="textChild">
+            <form>
+                <p class="itemText">Best Lemonade Ever!</p>
+            </form>
+            <p class="itemTotals" id="txtQtyLemon">Quantity Ordered:</p>
+            <p th:text="${order.totLemon}"></p>
+            <p class="itemTotals" id="txtCstLemon">Total Cost:</p>
+        </div>
+        <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+            <form>
+                <p class="itemText">Delicious Limeade!</p>
+            </form>
+            <p class="itemTotals" id="txtQtyLime">Quantity Ordered:</p>
+            <p th:text="${order.totLime}"></p>
+            <p class="itemTotals" id="txtCstLime">Total Cost:</p>
+        </div>
+        <div class="textChild">
+            <form>
+                <p class="itemText">Great Pink Lemonade!</p>
+            </form>
+            <p class="itemTotals" id="txtQtyPink">Quantity Ordered:</p>
+            <p th:text="${order.totPink}"></p>
+            <p class="itemTotals" id="txtCstPink">Total Cost:</p>
+        </div>
+    </div>
+    <div class="textParent">
+        <div class="textChild" style="margin-left: 35px; margin-right: 35px">
+            <p class="itemText" id="pageFeedback"></p>
+        </div>
+        <div class="textChild">
+            <button class="btn btn-info" onclick="goToHome()" id="btnHome">Go Home</button>
+        </div>
+    </div>
+</div>
+</body>
 </html>

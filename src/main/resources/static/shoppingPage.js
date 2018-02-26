@@ -92,13 +92,13 @@ function remPink() {
     }
 }
 
-function goToCust() {
+function shoppingCust() {
     // send customer order to server
     var cd = new Date();
     var odte = (cd.getFullYear() + '-' + (cd.getMonth()+1) + '-' + cd.getDate());
     // add a unique order number using date,hours,minutes,seconds
     var onum = (cd.getFullYear()+(cd.getMonth()+1)+cd.getDate()+cd.getHours()+cd.getMinutes()+cd.getSeconds());
-    var cnam = "*NEWCUSTOMER*";
+    var cnam = "CUSTOMER_NAME";
     var leqty = qtyLemon.toString();
     var liqty = qtyLime.toString();
     var piqty = qtyPink.toString();

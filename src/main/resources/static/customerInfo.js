@@ -2,9 +2,6 @@ $(document).ready(function(){
 
 });
 
-function goToShopping(){
-    window.location.href = "/shopping";
-}
 function goToSummary() {
 
     if (($("#inputName").val()) == "") {

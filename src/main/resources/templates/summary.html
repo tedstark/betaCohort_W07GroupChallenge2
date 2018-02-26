@@ -6,63 +6,55 @@
         <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
         <link rel="stylesheet" th:href="@{/style.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
+        <script type="text/javascript" th:src="@{/summaryorder.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
-        <script type="text/javascript" th:src="@{/summary.js}"></script>
+
     </head>
     <body>
         <div class="container">
-            <div class="titleParent">
-                <div class="titleChild">
-                    <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+            <div class="row">
+                <div class="col-md-2 card box">
+                    <p>Order Date</p>
+                </div>
+                <div class="col-md-2 card box">
+                    <p>Order Number</p>
+                </div>
+                <div class="col-md-2 card box">
+                    <p>Customer Name</p>
+                </div>
+                <div class="col-md-2 card box">
+                    <p>Total Lemonade</p>
+                </div>
+                <div class="col-md-2 card box">
+                    <p>Total Limeade</p>
+                </div>
+                <div class="col-md-2 card box">
+                    <p>Total Pink Lemonade</p>
                 </div>
             </div>
-            <div class="textParent">
-                <div class="indexHeaderDiv">
-                    <p class="indexHeaderText">Order Summary/Checkout</p>
+            <div class="row">
+                <div class="col-md-2 card box">
+                    <p th:text="${order.ordDate}"></p>
                 </div>
-            </div>
-            <div class="textParent">
-                <div class="indexHeaderDiv">
-                    <p th:text="${order.custName}"></p>
+                <div class="col-md-2 card box">
+                    <p th:text="${order.ordNum}"></p>
                 </div>
-            </div>
-            <div class="textParent">
-                <div class="textChild">
-                    <form>
-                        <p class="itemText">Best Lemonade Ever!</p>
-                    </form>
-                    <p class="itemTotals" id="txtQtyLemon">Quantity Ordered:</p>
+                <div class="col-md-2 card box">
+                    <p th:text="${order.custName}" id="txtCustName"></p>
+                    <!--<output class="outCustName" text="${order.custName}" type="text" id="txtCustName"/>-->
+                </div>
+                <div class="col-md-2 card box">
                     <p th:text="${order.totLemon}"></p>
-                    <p class="itemTotals" id="txtCstLemon">Total Cost:</p>
                 </div>
-                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
-                    <form>
-                        <p class="itemText">Delicious Limeade!</p>
-                    </form>
-                    <p class="itemTotals" id="txtQtyLime">Quantity Ordered:</p>
+                <div class="col-md-2 card box">
                     <p th:text="${order.totLime}"></p>
-                    <p class="itemTotals" id="txtCstLime">Total Cost:</p>
                 </div>
-                <div class="textChild">
-                    <form>
-                        <p class="itemText">Great Pink Lemonade!</p>
-                    </form>
-                    <p class="itemTotals" id="txtQtyPink">Quantity Ordered:</p>
+                <div class="col-md-2 card box">
                     <p th:text="${order.totPink}"></p>
-                    <p class="itemTotals" id="txtCstPink">Total Cost:</p>
-                </div>
-            </div>
-            <div class="textParent">
-                <div class="textChild">
-                    <button class="btn btn-info" onclick="goToCust()" id="btnCustPage">Back to Cust Info</button>
-                </div>
-                <div class="textChild" style="margin-left: 35px; margin-right: 35px">
-                    <p class="itemText" id="pageFeedback"></p>
-                </div>
-                <div class="textChild">
-                    <button class="btn btn-info" onclick="goToConfirm()" id="btnConfirm">Place Order...</button>
                 </div>
             </div>
         </div>
+       <button onclick="goToCust()" class="btn btn-info" id="btnCustPage">Back</button>
+       <button onclick="sumConfirm()" class="btn btn-info" id="btnConfirm">PlaceOrder</button>
     </body>
 </html>

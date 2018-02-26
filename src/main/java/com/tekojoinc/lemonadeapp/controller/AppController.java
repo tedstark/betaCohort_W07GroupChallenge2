@@ -38,7 +38,9 @@ public class AppController {
     @RequestMapping("/history")
     public String getOrders(ModelMap modelMap){
         List<OrderHistory> orderlist = OrderDB.getAllOrders();
-        modelMap.put("entry", orderlist);
+        modelMap.put("order", orderlist);
+        System.out.println("inside /history orderlist:");
+        System.out.println(orderlist);
         return "history";
     }
 
@@ -61,10 +63,41 @@ public class AppController {
 
     // update customer name to last order
     @RequestMapping("/custname/{cnam}")
-    public String addNameToOrder(@PathVariable String cnam, ModelMap modelMap){
-        OrderHistory order = OrderDB.addCustName(cnam);
-        modelMap.put("order", order);
+    public String addNameToOrder(
+            @PathVariable String cnam,
+            ModelMap modelMap
+    ){
+        System.out.println("inside addNameToOrder cnam" + cnam);
+        OrderHistory fndOrder = OrderDB.addCustName(cnam);
+        System.out.println("order" + fndOrder);
+        modelMap.put("order", fndOrder);
         return "summary";
+    }
+
+    // get order by customer name for summary page
+    @RequestMapping("/ordersummary/{cnam}")
+    public String getOrderSummary(
+            @PathVariable String cnam,
+            ModelMap modelMap
+    ){
+        System.out.println("inside /ordersummary");
+        System.out.println("cnam" + cnam);
+        OrderHistory fndOrder = OrderDB.getOrder(cnam);
+        modelMap.put("order", fndOrder);
+        return "summary";
+    }
+
+    // get order by customer name for confirmation page
+    @RequestMapping("/orderconfirm/{cnam}")
+    public String getOrderConfirm(
+            @PathVariable String cnam,
+            ModelMap modelMap
+    ){
+        System.out.println("inside /ordersconfirm");
+        System.out.println("cnam" + cnam);
+        OrderHistory fndOrder = OrderDB.getOrder(cnam);
+        modelMap.put("order", fndOrder);
+        return "confirm";
     }
 
 }

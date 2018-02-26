@@ -7,7 +7,6 @@
         <link rel="stylesheet" th:href="@{/style.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
-        <script type="text/javascript" th:src="@{/confirm.js}"></script>
         <script type="text/javascript" th:src="@{/history.js}"></script>
     </head>
     <body>
@@ -17,9 +16,14 @@
                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
                 </div>
             </div>
-            <div class="textParent">
-                <div class="indexHeaderDiv">
-                    <p class="indexHeaderText">Order History</p>
+            <div>
+                <div>
+                    <p>Order History</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button onclick="goToHome()" class="btn btn-info">Back to Home</button>
                 </div>
             </div>
             <div id="divhistory">
@@ -40,31 +44,22 @@
                         <p class="colhdg lead text-center">Total Cost</p>
                     </div>
                 </div>
-                <div class="row" th:each="entry : ${orderlist}">
-                    <div class="col-md-2 box">
-                        <p th:text="${entry.ordDate}"></p>
-                    </div>
-                    <div class="col-md-2 box">
-                        <p th:text="${entry.ordNum}"></p>
-                    </div>
-                    <div class="col-md-2 box">
-                        <p th:text="${entry.custName}"></p>
-                    </div>
-                    <div class="col-md-2 box">
-                        <p th:text="${entry.totQty}"></p>
-                    </div>
-                    <div class="col-md-2 box">
-                        <p th:text="${entry.totCost}"></p>
-                    </div>
-                </div>
             </div>
-            <div class="textParent">
-                <div class="textChild">
+            <div class="row" th:each="order : ${orderlist}">
+                <div class="col-md-2 box">
+                    <p th:text="${order.ordDate}"></p>
                 </div>
-                <div class="textChild">
-                    <button onclick="goHome()" class="btn btn-info">Back to Home</button>
+                <div class="col-md-2 box">
+                    <p th:text="${order.ordNum}"></p>
                 </div>
-                <div class="textChild">
+                <div class="col-md-2 box">
+                    <p th:text="${order.custName}"></p>
+                </div>
+                <div class="col-md-2 box">
+                    <p th:text="${order.totQty}"></p>
+                </div>
+                <div class="col-md-2 box">
+                    <p th:text="${order.totCost}"></p>
                 </div>
             </div>
         </div>
