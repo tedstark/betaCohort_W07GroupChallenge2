@@ -7,7 +7,7 @@
         <link rel="stylesheet" th:href="@{/style.css}"/>
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
-        <script type="text/javascript" th:src="@{/history.js}"></script>
+        <script type="text/javascript" th:src="@{/historypage.js}"></script>
     </head>
     <body>
         <div class="container">
@@ -56,10 +56,13 @@
                     <p th:text="${order.custName}"></p>
                 </div>
                 <div class="col-md-2 box">
-                    <p th:text="${order.totQty}"></p>
+                    <p th:text="${order.totLemon}"></p>
                 </div>
                 <div class="col-md-2 box">
-                    <p th:text="${order.totCost}"></p>
+                    <p th:text="${order.totLime}"></p>
+                </div>
+                <div class="col-md-2 box">
+                    <p th:text="${order.totPink}"></p>
                 </div>
             </div>
         </div>

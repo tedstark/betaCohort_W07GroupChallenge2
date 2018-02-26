@@ -32,6 +32,11 @@ container {
     display: inline-block;
     /*text-align: center;*/
 }
+.imagesChild img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 .textParent{
     margin-top: 10px;
     border: 1px solid red;
@@ -100,4 +105,7 @@ container {
 }
 .custInputField {
     margin-top: 10px;
+}
+.box {
+    height: 50px;
 }
