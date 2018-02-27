@@ -23,48 +23,48 @@
             </div>
             <div class="imagesParent">
                 <div class="imagesChild">
-                    <button class="btn btn-info btnWidth" onclick="goToHome()">Back to Home</button>
+                    <button class="btn btn-info" onclick="goToHome()">Back to Home</button>
                 </div>
             </div>
             <div id="divhistory">
-                <div id="colhdgs" class="row">
+                <div class="row">
                     <div class="col-md-2 card box">
-                        <p class="colhdg lead text-center">Order Date</p>
+                        <p>Order Date</p>
                     </div>
                     <div class="col-md-2 card box">
-                        <p class="colhdg lead text-center">Order Number</p>
-                    </div>
-                    <div class="col-md-2 card box">
-                        <p class="colhdg lead text-center">Customer</p>
+                        <p>Order Number</p>
                     </div>
                     <div class="col-md-1 card box">
-                        <p class="colhdg lead text-center">Total Lemonades</p>
+                        <p>Customer</p>
                     </div>
                     <div class="col-md-1 card box">
-                        <p class="colhdg lead text-center">Total Limeades</p>
+                        <p>Total Lemonades</p>
                     </div>
-                    <div class="col-md-1 box">
-                        <p class="colhdg lead text-center">Total Pink Lemonades</p>
+                    <div class="col-md-1 card box">
+                        <p>Total Limeades</p>
                     </div>
-                    <div class="col-md-1 box">
-                        <p class="colhdg lead text-center">Total Order Qty</p>
+                    <div class="col-md-1 card box">
+                        <p>Total Pink Lemonades</p>
                     </div>
-                    <div class="col-md-1 box">
-                        <p class="colhdg lead text-center">Total Order Cost</p>
+                    <div class="col-md-2 card box">
+                        <p>Total Order Qty</p>
+                    </div>
+                    <div class="col-md-2 card box">
+                        <p>Total Order Cost</p>
                     </div>
                 </div>
             </div>
-            <div class="row" id="histrow" th:each="order : ${orderlist}">
+            <div class="row" th:each="order : ${orderlist}">
                 <div class="col-md-2 card box">
                     <p th:text="${order.ordDate}"></p>
                 </div>
                 <div class="col-md-2 card box">
                     <p th:text="${order.ordNum}"></p>
                 </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-1 card box">
                     <p th:text="${order.custName}"></p>
                 </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-1 card box">
                     <p th:text="${order.totLemon}"></p>
                 </div>
                 <div class="col-md-1 card box">
@@ -73,10 +73,10 @@
                 <div class="col-md-1 card box">
                     <p th:text="${order.totPink}"></p>
                 </div>
-                <div class="col-md-1 card box">
+                <div class="col-md-2 card box">
                     <p th:text="${order.totQty}"></p>
                 </div>
-                <div class="col-md-1 box">
+                <div class="col-md-2 card box">
                     <p th:text="${order.totCost}"></p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ container {
 .title {
     width: 25%;
 }
-.images {
+.images src {
     width: 75%;
 }
 .titleParent{
@@ -31,6 +31,8 @@ container {
     vertical-align: middle;
     display: inline-block;
     /*text-align: center;*/
+
+
 }
 .textParent{
     margin-top: 10px;
@@ -117,10 +119,11 @@ input::-webkit-inner-spin-button {
 .cardNumber {
     width: 175px
 }
-#colhdgs {
-    font-weight: bold;
-    font-size: 18px;
- }
-#histrow {
-    font-size: 16px;
+.box {
+    font-size: 12px;
+    text-align: center;
+}
+
+.summrow{
+    text-align: right;
 }

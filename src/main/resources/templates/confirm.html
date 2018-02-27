@@ -19,12 +19,33 @@
     </div>
     <div class="textParent">
         <div class="indexHeaderDiv">
-            <p class="red indexHeaderText">Order Confirmed!</p>
-        </div>
-    </div>
-    <div class="textParent">
-        <div class="indexHeaderDiv">
-            <p th:text="${order.custName}"></p>
+            <p class="indexHeaderText">Order Confirmed</p>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 card">
+                    <p>Customer Name:</p>
+                </div>
+                <div class="col-md-4 card">
+                    <p th:text="${order.custName}" id="txtCustName"></p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2 card">
+                    <p>Order Date</p>
+                </div>
+                <div class="col-md-2 card">
+                    <p th:text="${order.ordDate}"></p>
+                </div>
+                <div class="col-md-2 card">
+                    <p>Order Number</p>
+                </div>
+                <div class="col-md-2 card">
+                    <p th:text="${order.ordNum}" id="txtOrdNum"></p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
         </div>
     </div>
     <div class="textParent">
@@ -32,25 +53,25 @@
             <form>
                 <p class="itemText">Best Lemonade Ever!</p>
             </form>
-            <p class="itemTotals" id="txtQtyLemon">Quantity Ordered:</p>
-            <p th:text="${order.totLemon}"></p>
-            <p class="itemTotals" id="txtCstLemon">Total Cost:</p>
+            <p class="itemTotals">Quantity Ordered:</p>
+            <p th:text="${order.totLemon}" id="txtQtyLemon"></p>
+            <p th:text="cost" id="txtCstLemon"></p>
         </div>
         <div class="textChild" style="margin-left: 35px; margin-right: 35px">
             <form>
                 <p class="itemText">Delicious Limeade!</p>
             </form>
-            <p class="itemTotals" id="txtQtyLime">Quantity Ordered:</p>
-            <p th:text="${order.totLime}"></p>
-            <p class="itemTotals" id="txtCstLime">Total Cost:</p>
+            <p class="itemTotals">Quantity Ordered:</p>
+            <p th:text="${order.totLime}" id="txtQtyLime"></p>
+            <p th:text="cost" id="txtCstLime"></p>
         </div>
         <div class="textChild">
             <form>
                 <p class="itemText">Great Pink Lemonade!</p>
             </form>
-            <p class="itemTotals" id="txtQtyPink">Quantity Ordered:</p>
-            <p th:text="${order.totPink}"></p>
-            <p class="itemTotals" id="txtCstPink">Total Cost:</p>
+            <p class="itemTotals">Quantity Ordered:</p>
+            <p th:text="${order.totPink}" id="txtQtyPink"></p>
+            <p th:text="cost" id="txtCstPink"></p>
         </div>
     </div>
     <div class="textParent">

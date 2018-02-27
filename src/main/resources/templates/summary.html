@@ -8,53 +8,84 @@
         <script type="text/javascript" th:src="@{/jquery.js}"></script>
         <script type="text/javascript" th:src="@{/summaryorder.js}"></script>
         <script type="text/javascript" th:src="@{/client.js}"></script>
-
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 card box">
-                    <p>Order Date</p>
-                </div>
-                <div class="col-md-2 card box">
-                    <p>Order Number</p>
-                </div>
-                <div class="col-md-2 card box">
-                    <p>Customer Name</p>
-                </div>
-                <div class="col-md-2 card box">
+    <div class="container">
+             <div class="titleParent">
+                 <div class="titleChild">
+                     <img th:src="@{'/images/' + ${'title'} + '.png'}" alt="png" />
+                 </div>
+             </div>
+             <div class="textParent">
+                 <div class="indexHeaderDiv">
+                     <p class="indexHeaderText">Order Summary</p>
+                     <div class="row">
+                         <div class="col-md-2"></div>
+                         <div class="col-md-4 card">
+                             <p>Customer Name:</p>
+                         </div>
+                         <div class="col-md-4 card">
+                             <p th:text="${order.custName}" id="txtCustName"></p>
+                         </div>
+                         <div class="col-md-2"></div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-2"></div>
+                         <div class="col-md-2 card">
+                         <p>Order Date</p>
+                         </div>
+                         <div class="col-md-2 card">
+                         <p th:text="${order.ordDate}"></p>
+                         </div>
+                         <div class="col-md-2 card">
+                         <p>Order Number</p>
+                         </div>
+                         <div class="col-md-2 card">
+                         <p th:text="${order.ordNum}" id="txtOrdNum"></p>
+                         </div>
+                         <div class="col-md-2"></div>
+                     </div>
+                 </div>
+             </div>
+            <div class="row textParent">
+                <div class="col-md-2 card">
                     <p>Total Lemonade</p>
                 </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-2 card">
                     <p>Total Limeade</p>
                 </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-2 card">
                     <p>Total Pink Lemonade</p>
                 </div>
+                <div class="col-md-3 card">
+                    <p>Total Qtys.</p>
+                </div>
+                <div class="col-md-3 card">
+                    <p>Total Cost</p>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-2 card box">
-                    <p th:text="${order.ordDate}"></p>
+            <div class="row summrow">
+                <div class="col-md-2 card">
+                <p th:text="${order.totLemon}"></p>
                 </div>
-                <div class="col-md-2 card box">
-                    <p th:text="${order.ordNum}"></p>
-                </div>
-                <div class="col-md-2 card box">
-                    <p th:text="${order.custName}" id="txtCustName"></p>
-                    <!--<output class="outCustName" text="${order.custName}" type="text" id="txtCustName"/>-->
-                </div>
-                <div class="col-md-2 card box">
-                    <p th:text="${order.totLemon}"></p>
-                </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-2 card">
                     <p th:text="${order.totLime}"></p>
                 </div>
-                <div class="col-md-2 card box">
+                <div class="col-md-2 card">
                     <p th:text="${order.totPink}"></p>
                 </div>
+                <div class="col-md-3 card">
+                    <p th:text="${order.totQty}"></p>
+                </div>
+                <div class="col-md-3 card">
+                    <p th:text="${order.totCost}"></p>
+                </div>
             </div>
-        </div>
-        <button onclick="goToCust()" class="btn btn-info" id="btnCustPage">Back</button>
-       <button onclick="sumConfirm()" class="btn btn-info" id="btnConfirm">PlaceOrder</button>
+            <div class="textParent">
+                <div class="textChild">
+                    <button class="btn btn-info" onclick="sumConfirm()" id="btnConfirmPage">Place Order</button>
+                </div>
+            </div>
+    </div>
     </body>
 </html>
