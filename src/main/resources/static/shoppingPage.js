@@ -97,7 +97,8 @@ function shoppingCust() {
     var cd = new Date();
     var odte = (cd.getFullYear() + '-' + (cd.getMonth()+1) + '-' + cd.getDate());
     // add a unique order number using date,hours,minutes,seconds; Why is onum only four digits when passed to server?
-    var onum = (cd.getFullYear()+(cd.getMonth()+1)+cd.getDate()+cd.getHours()+cd.getMinutes()+cd.getSeconds());
+    // var onum = (cd.getFullYear()+(cd.getMonth()+1)+cd.getDate()+cd.getHours()+cd.getMinutes()+cd.getSeconds());
+    var onum = 0;
     var cnam = "CUSTOMER_NAME";
     var leqty = qtyLemon.toString();
     var liqty = qtyLime.toString();

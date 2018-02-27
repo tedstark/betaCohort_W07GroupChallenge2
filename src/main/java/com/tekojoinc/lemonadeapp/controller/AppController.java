@@ -74,9 +74,9 @@ public class AppController {
             @PathVariable String cnam,
             ModelMap modelMap
     ){
-        System.out.println("inside addNameToOrder cnam" + cnam);
+//        System.out.println("inside addNameToOrder cnam" + cnam);
         OrderHistory fndOrder = OrderDB.addCustName(cnam);
-        System.out.println("order" + fndOrder);
+//        System.out.println("order" + fndOrder);
         modelMap.put("order", fndOrder);
         return "summary";
     }
@@ -87,22 +87,24 @@ public class AppController {
             @PathVariable String cnam,
             ModelMap modelMap
     ){
-        System.out.println("inside /ordersummary");
-        System.out.println("cnam" + cnam);
+//        System.out.println("inside /ordersummary");
+//        System.out.println("cnam" + cnam);
         OrderHistory fndOrder = OrderDB.getOrder(cnam);
         modelMap.put("order", fndOrder);
         return "summary";
     }
 
     // get order by customer name for confirmation page
-    @RequestMapping("/orderconfirm/{cnam}")
+    @RequestMapping("/orderconfirm/{cnam}/{ordNum}")
     public String getOrderConfirm(
+            @PathVariable String ordNum,
             @PathVariable String cnam,
             ModelMap modelMap
     ){
-        System.out.println("inside /ordersconfirm");
-        System.out.println("cnam" + cnam);
-        OrderHistory fndOrder = OrderDB.getOrder(cnam);
+//        System.out.println("inside /ordersconfirm");
+//        System.out.println("Order#: " + ordNum);
+        OrderHistory fndOrder = OrderDB.addOrdNum(cnam, ordNum);
+//        OrderHistory fndOrder = OrderDB.getOrder(ordNum);
         modelMap.put("order", fndOrder);
         return "confirm";
     }

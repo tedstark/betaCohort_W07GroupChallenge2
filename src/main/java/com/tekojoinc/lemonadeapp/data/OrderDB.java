@@ -35,8 +35,21 @@ public class OrderDB {
         for(OrderHistory order : allOrders){
             if(order.getCustName().equals("CUSTOMER_NAME")){
                 order.setCustName(cnam);
-                System.out.println("inside addCustName");
-                System.out.println("cnam=" + cnam);
+//                System.out.println("inside addCustName");
+//                System.out.println("cnam=" + cnam);
+                return order;
+            }
+        }
+        // if nothing is returned - send filler data
+        OrderHistory order = new OrderHistory("NotFound", "N/A", "addCustName:No Customer","0","0","0");
+        return order;
+    }
+    public static OrderHistory addOrdNum(String cnam, String ordNum){
+        for(OrderHistory order : allOrders){
+            if(order.getCustName().equals(cnam)){
+                order.setOrdNum(ordNum);
+//                System.out.println("inside addCustName");
+//                System.out.println("cnam=" + cnam);
                 return order;
             }
         }

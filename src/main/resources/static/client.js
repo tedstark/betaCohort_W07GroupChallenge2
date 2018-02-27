@@ -5,12 +5,7 @@ var qtyPink=0;
 var cstPink=0;
 var qtyLime=0;
 var cstLime=0;
-var custName = "";
-var custAdd1 = "";
-var custAdd2 = "";
-var custPayType = "";
-var custCCNum = 0;
-var shoppingCart= [0][0];
+var cd = new Date();
 
 $(document).ready(function(){
 
@@ -33,5 +28,18 @@ function goToSummary() {
 function goToHistory() {
     window.location.href = "/history";
 }
-
+function btnOrderNum () {
+    var randNum = getOrderNum(9000,9999);
+    // var onum = (cd.getFullYear()+(cd.getMonth()+1)+cd.getDate()+cd.getHours()+cd.getMinutes()+cd.getSeconds());
+    // var onumMth = (cd.getMonth()).toLocaleString(undefined,{minimumIntegerDigits: 2});
+    var onumHrs = (cd.getHours()).toLocaleString(undefined,{minimumIntegerDigits: 2});
+    var onumMin = (cd.getMinutes()).toLocaleString(undefined,{minimumIntegerDigits: 2});
+    var onumSec = (cd.getSeconds()).toLocaleString(undefined,{minimumIntegerDigits: 2});
+    // $("#textArea").val($("#textArea").val()+$(this).data("num"));
+    // $("#textArea").val($("#textArea").val() + onum);
+    $("#pageFeedback").text(onumHrs+onumMin+onumSec+"-"+randNum)
+}
+function getOrderNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
