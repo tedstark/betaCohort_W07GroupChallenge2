@@ -1,5 +1,7 @@
 package com.tekojoinc.lemonadeapp.models;
 
+import java.text.NumberFormat;
+
 public class OrderHistory {
 
     private String ordDate;
@@ -26,8 +28,10 @@ public class OrderHistory {
         int val3 = Integer.parseInt(totPink);
         this.totQty = String.valueOf(val1 + val2 + val3);
 
-        double val4 = ((val1 + val2 + val3) * 2.00);
-        this.totCost = String.valueOf(val4);
+        double val4 = ((val1 + val2 + val3) * 2);
+        NumberFormat numformat = NumberFormat.getCurrencyInstance();
+        String currcost = numformat.format(val4);
+        this.totCost = currcost;
 
     }
 
